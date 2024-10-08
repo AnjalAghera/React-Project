@@ -1,0 +1,47 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  width: 300px;
+}
+
+.sidebar-brand {
+  padding: 10px;
+  background-color: #444;
+}
+
+.sidebar-brand h2 {
+  margin: 0;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.components {
+  padding: 20px;
+}
+
+.components li {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.components li:hover {
+  background-color: #555;
+}
+
+.components li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  /* background-color: #555; */
+}

@@ -1,0 +1,243 @@
+
+/*-------------------------
+	1.3. dark-overlay
+---------------------------------*/
+.div_zindex {
+    position: relative;
+    z-index: 1;
+  }
+  .dark-overlay {
+    background: rgba(0, 0, 0, 0.75) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .highlights {
+    background-color: #333;
+    color: white;
+}
+
+.highlight-item {
+    background-color: #e43f3f;
+    border-radius: 50%;
+    padding: 40px 20px;
+    margin: 20px 0;
+    transition: transform 0.3s;
+}
+
+.highlight-item:hover {
+    transform: scale(1.1);
+}
+
+.highlight-item .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.highlight-item h3 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.highlight-item p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* header */
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info .icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact-text {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+.contact-link {
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.social-login {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    font-size: 18px;
+    color: #000;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* .btn-danger {
+    background-color: #e43f3f;
+    border-color: #e43f3f;
+}
+
+.btn-danger:hover {
+    background-color: #c32b2b;
+    border-color: #c32b2b;
+} */
+/* chatgpt */
+body {
+	font-family: 'Lato', sans-serif;
+	margin:0px;
+	padding:0px !important;
+	overflow-x:hidden;
+	color:#555555;
+}
+
+
+/*-----------------
+	3.12. Footer
+------------------------*/
+.footer-top {
+    background: #222222 none repeat scroll 0 0;
+    color: #9d9d9d;
+    padding: 80px 0;
+  }
+  .footer-top h6 {
+    color: #ffffff;
+    font-size:15px;
+    text-transform:uppercase;
+    margin-bottom: 40px;
+  }
+  .footer-top ul {
+    overflow: hidden;
+    padding: 0;
+  }
+  .footer-top ul li {
+    font-size: 14px;
+    line-height: 23px;
+    list-style: outside none none;
+    margin-bottom: 16px;
+    padding-left: 12px;
+    position: relative;
+  }
+  .footer-top ul li a::after {
+    content: "";
+    font-family: fontawesome;
+    left: 0;
+    position: absolute;
+    vertical-align: middle;
+  }
+  .footer-top ul li a {
+    color: #fff;
+  }
+  input.newsletter-input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    font-size: 13px;
+    text-align: left;
+  }
+  .subscribed-text {
+    color: #606060;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 10px;
+  }
+  .footer-bottom {
+    background: #191919 none repeat scroll 0 0;
+    padding: 22px 0;
+  }
+  .footer_widget {
+    color: #ffffff;
+    display: inline-block;
+    margin: 6px 0 0 30px;
+  }
+  .footer_widget p {
+      display:inline-block;
+      vertical-align:middle;
+      margin:0px;
+  }
+  .footer_widget ul  {
+      display:inline-block;
+      padding:0px;
+      vertical-align:middle;
+      margin:0px 0 0 8px;
+  }
+  .footer_widget ul li {
+      display:inline-block;
+      vertical-align:middle;
+      list-style:none;
+      margin:0 auto;
+  }
+  .footer_widget ul li a {
+      color:#fff;
+      display:block;
+      font-size:18px;
+      margin:0 4px;
+  }
+  .footer_widget ul li a i {
+      margin:0px;
+  }
+  .copy-right {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 40px;
+    margin: 0 auto;
+  }
+  .back-top {
+    bottom: 35px;
+    position: fixed;
+    right: 33px;
+    z-index: 1;
+  }
+  .back-top a {
+    border-radius: 50%;
+    color: #ffffff;
+    display: block;
+    font-size: 19px;
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+    vertical-align: top;
+    width: 40px;
+  }
+  .back-top a:hover, .back-top a:focus {
+      color:#fff;
+  }
+  
+
+  
