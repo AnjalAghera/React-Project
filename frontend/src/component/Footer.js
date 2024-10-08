@@ -39,7 +39,7 @@ function Footer(){
           </div>
         </div>
         <div class="col-md-6 col-md-pull-6">
-          <p class="copy-right">Devlop By <a href="#">Dhruv Vyas</a></p>
+          <p class="copy-right">Devlop By <a href="#">Anjal Aghera</a></p>
         </div>
       </div>
     </div>
